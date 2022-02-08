@@ -4,6 +4,7 @@
   "description": "Angular component providing an input field for searching / filtering MatSelect options of the Angular Material library.",
   "version": "4.0.2",
   "license": "MIT",
+  "main": "dist-lib/fesm2020/ngx-mat-select-search.mjs",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

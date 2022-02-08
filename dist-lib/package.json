@@ -1,0 +1,51 @@
+{
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "name": "ngx-mat-select-search",
+  "description": "Angular component providing an input field for searching / filtering MatSelect options of the Angular Material library.",
+  "version": "4.0.2",
+  "license": "MIT",
+  "author": "Esteban Gehring, Bithost GmbH",
+  "bugs": {
+    "url": "https://github.com/bithost-gmbh/ngx-mat-select-search/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bithost-gmbh/ngx-mat-select-search.git"
+  },
+  "keywords": [
+    "angular",
+    "angular 2",
+    "material",
+    "MatSelect",
+    "select",
+    "search",
+    "filter"
+  ],
+  "homepage": "https://github.com/bithost-gmbh/ngx-mat-select-search",
+  "peerDependencies": {
+    "@angular/material": "^12.0.0 || ^13.0.0 || ^14.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "module": "fesm2015/ngx-mat-select-search.mjs",
+  "es2020": "fesm2020/ngx-mat-select-search.mjs",
+  "esm2020": "esm2020/ngx-mat-select-search.mjs",
+  "fesm2020": "fesm2020/ngx-mat-select-search.mjs",
+  "fesm2015": "fesm2015/ngx-mat-select-search.mjs",
+  "typings": "ngx-mat-select-search.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ngx-mat-select-search.d.ts",
+      "esm2020": "./esm2020/ngx-mat-select-search.mjs",
+      "es2020": "./fesm2020/ngx-mat-select-search.mjs",
+      "es2015": "./fesm2015/ngx-mat-select-search.mjs",
+      "node": "./fesm2015/ngx-mat-select-search.mjs",
+      "default": "./fesm2020/ngx-mat-select-search.mjs"
+    }
+  },
+  "sideEffects": false
+}
